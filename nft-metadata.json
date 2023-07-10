@@ -1,0 +1,16 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Breed",
+        "value": "Maltipoo"
+      },
+      {
+        "trait_type": "Eye color",
+        "value": "Black"
+      }
+    ],
+    "description": "The world's most adorable and sensitive pup.",
+    "image": "ipfs://QmWxtvfUN8LwUFkzQ2aZY5Je8jZVjpZNLJ3r8xR85Wgz7B",
+    "name": "Bunny"
+  }
+  

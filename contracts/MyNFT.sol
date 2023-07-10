@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: ISC 
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -10,8 +11,10 @@ contract MyNFT is ERC721URIStorage, Ownable {
     
     Counters.Counter private _tokenIds;
 
+    // contracts constructor
     constructor() ERC721("MyNFT", "NFT") {}
 
+    // mint nft/create nft 
     function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256)
     {
         _tokenIds.increment();
